@@ -1,0 +1,409 @@
+{
+	"list": [
+		{
+			"type": "text",
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"textAlign": "center",
+				"fontSize": 27,
+				"showRequiredMark": false,
+				"showRequiredMarkScript": "",
+				"hidden": false,
+				"bold": false
+			},
+			"label": "耗材报销",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 24,
+			"key": "text_17176595703772",
+			"model": "text_17176595703772",
+			"dynamicLabel": false
+		},
+		{
+			"type": "tableGrid",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "网格布局",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 24,
+			"key": "tableGrid_17176606695752",
+			"model": "tableGrid_17176606695752",
+			"grids": {
+				"list": [
+					{
+						"key": 1717660669553,
+						"list": [
+							{
+								"type": "input",
+								"options": {
+									"defaultValue": "",
+									"type": "text",
+									"prepend": "",
+									"append": "",
+									"placeholder": "请输入",
+									"maxLength": 0,
+									"clearable": false,
+									"hidden": false,
+									"disabled": false
+								},
+								"label": "1.报销人",
+								"labelWidth": 1,
+								"width": "100%",
+								"span": 24,
+								"model": "input_17176607641952",
+								"key": "input_17176607641952",
+								"rules": [
+									{
+										"required": false,
+										"message": "必填项",
+										"trigger": [
+											"blur"
+										]
+									}
+								],
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 1,
+						"colEnd": 1,
+						"rowStart": 1,
+						"rowEnd": 1,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					},
+					{
+						"key": 1717660669553,
+						"list": [
+							{
+								"type": "input",
+								"options": {
+									"defaultValue": "",
+									"type": "text",
+									"prepend": "",
+									"append": "",
+									"placeholder": "请输入",
+									"maxLength": 0,
+									"clearable": false,
+									"hidden": false,
+									"disabled": false
+								},
+								"label": "2.部门",
+								"labelWidth": 1,
+								"width": "100%",
+								"span": 24,
+								"model": "input_17176607748712",
+								"key": "input_17176607748712",
+								"rules": [
+									{
+										"required": false,
+										"message": "必填项",
+										"trigger": [
+											"blur"
+										]
+									}
+								],
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 2,
+						"colEnd": 2,
+						"rowStart": 1,
+						"rowEnd": 1,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					},
+					{
+						"key": 1717660669553,
+						"list": [
+							{
+								"type": "html",
+								"event_": false,
+								"listen_": false,
+								"options": {
+									"defaultValue": "<span>3.日期：</span>",
+									"hidden": false
+								},
+								"label": "HTML",
+								"labelWidth": 0,
+								"width": "100%",
+								"span": 24,
+								"key": "html_17176607963802",
+								"model": "html_17176607963802",
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 1,
+						"colEnd": 1,
+						"rowStart": 2,
+						"rowEnd": 2,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					},
+					{
+						"key": 1717660669553,
+						"list": [
+							{
+								"type": "daterange",
+								"options": {
+									"dateType": "date",
+									"format": "yyyy-MM-dd",
+									"rangeStartPlaceholder": "请输入",
+									"rangeEndPlaceholder": "请输入",
+									"clearable": false,
+									"editable": true,
+									"hidden": false,
+									"disabled": false
+								},
+								"label": "",
+								"labelWidth": 1,
+								"width": "100%",
+								"span": 24,
+								"model": "daterange_17176608457722",
+								"key": "daterange_17176608457722",
+								"rules": [
+									{
+										"required": false,
+										"message": "必填项",
+										"trigger": [
+											"blur"
+										]
+									}
+								],
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 2,
+						"colEnd": 2,
+						"rowStart": 2,
+						"rowEnd": 2,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					}
+				],
+				"rowNum": 2,
+				"colNum": 2
+			},
+			"dynamicLabel": false
+		},
+		{
+			"type": "tableGrid",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "网格布局",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 24,
+			"key": "tableGrid_17176614373702",
+			"model": "tableGrid_17176614373702",
+			"grids": {
+				"list": [
+					{
+						"key": 1717661437354,
+						"list": [
+							{
+								"type": "input",
+								"options": {
+									"defaultValue": "",
+									"type": "text",
+									"prepend": "",
+									"append": "",
+									"placeholder": "请输入",
+									"maxLength": 0,
+									"clearable": false,
+									"hidden": false,
+									"disabled": false
+								},
+								"label": "4.报销事项",
+								"labelWidth": 1,
+								"width": "100%",
+								"span": 24,
+								"model": "input_17176614597792",
+								"key": "input_17176614597792",
+								"rules": [
+									{
+										"required": false,
+										"message": "必填项",
+										"trigger": [
+											"blur"
+										]
+									}
+								],
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 1,
+						"colEnd": 1,
+						"rowStart": 1,
+						"rowEnd": 1,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					},
+					{
+						"key": 1717661437354,
+						"list": [
+							{
+								"type": "input",
+								"options": {
+									"defaultValue": "",
+									"type": "text",
+									"prepend": "",
+									"append": "",
+									"placeholder": "请输入",
+									"maxLength": 0,
+									"clearable": false,
+									"hidden": false,
+									"disabled": false
+								},
+								"label": "5.报销金额",
+								"labelWidth": 1,
+								"width": "100%",
+								"span": 24,
+								"model": "input_1717661479823",
+								"key": "input_1717661479823",
+								"rules": [
+									{
+										"required": false,
+										"message": "必填项",
+										"trigger": [
+											"blur"
+										]
+									}
+								],
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 2,
+						"colEnd": 2,
+						"rowStart": 1,
+						"rowEnd": 1,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					},
+					{
+						"key": 1717661437354,
+						"list": [
+							{
+								"type": "input",
+								"options": {
+									"defaultValue": "",
+									"type": "text",
+									"prepend": "",
+									"append": "",
+									"placeholder": "请输入",
+									"maxLength": 0,
+									"clearable": false,
+									"hidden": false,
+									"disabled": false
+								},
+								"label": "6.支付方式",
+								"labelWidth": 1,
+								"width": "100%",
+								"span": 24,
+								"model": "input_17176615124002",
+								"key": "input_17176615124002",
+								"rules": [
+									{
+										"required": false,
+										"message": "必填项",
+										"trigger": [
+											"blur"
+										]
+									}
+								],
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 1,
+						"colEnd": 1,
+						"rowStart": 2,
+						"rowEnd": 2,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					},
+					{
+						"key": 1717661437354,
+						"list": [
+							{
+								"type": "input",
+								"options": {
+									"defaultValue": "",
+									"type": "text",
+									"prepend": "",
+									"append": "",
+									"placeholder": "请输入",
+									"maxLength": 0,
+									"clearable": false,
+									"hidden": false,
+									"disabled": false
+								},
+								"label": "7.预支金额",
+								"labelWidth": 1,
+								"width": "100%",
+								"span": 24,
+								"model": "input_17176615236022",
+								"key": "input_17176615236022",
+								"rules": [
+									{
+										"required": false,
+										"message": "必填项",
+										"trigger": [
+											"blur"
+										]
+									}
+								],
+								"dynamicLabel": false
+							}
+						],
+						"colStart": 2,
+						"colEnd": 2,
+						"rowStart": 2,
+						"rowEnd": 2,
+						"show": true,
+						"style": "height:100%;",
+						"class": ""
+					}
+				],
+				"rowNum": 2,
+				"colNum": 2
+			},
+			"dynamicLabel": false
+		}
+	],
+	"config": {
+		"labelPosition": "top",
+		"labelWidth": 80,
+		"size": "mini",
+		"outputHidden": true,
+		"hideRequiredMark": false,
+		"syncLabelRequired": false,
+		"labelSuffix": "",
+		"customStyle": ""
+	}
+}

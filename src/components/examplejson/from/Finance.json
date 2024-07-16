@@ -1,0 +1,1984 @@
+{
+	"list": [
+		{
+			"type": "text",
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"textAlign": "center",
+				"fontSize": 22,
+				"showRequiredMark": false,
+				"showRequiredMarkScript": "",
+				"hidden": false,
+				"bold": false
+			},
+			"label": "公司财务报表",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 24,
+			"key": "text_17176635418022",
+			"model": "text_17176635418022",
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_17176624937272",
+			"model": "table_17176624937272",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "科目",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176625780292",
+									"model": "text_17176625780292",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "2024年1季度",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176625996972",
+									"model": "text_17176625996972",
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "收入",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_1717662844430",
+									"model": "text_1717662844430",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176635789192",
+									"key": "input_17176635789192",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717662636477",
+			"model": "table_1717662636477",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "2024年2季度",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176626364773",
+									"model": "text_17176626364773",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "2024年3季度",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176626364774",
+									"model": "text_17176626364774",
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176635859342",
+									"key": "input_17176635859342",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176635935532",
+									"key": "input_17176635935532",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717662716621",
+			"model": "table_1717662716621",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "毛利润",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_1717662856139",
+									"model": "text_1717662856139",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176635979212",
+									"key": "input_17176635979212",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "运营费用",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_1717662901405",
+									"model": "text_1717662901405",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636027302",
+									"key": "input_17176636027302",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717662962862",
+			"model": "table_1717662962862",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636206442",
+									"key": "input_17176636206442",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663625782",
+									"key": "input_1717663625782",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636146312",
+									"key": "input_17176636146312",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663632153",
+									"key": "input_1717663632153",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717662985991",
+			"model": "table_1717662985991",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "广告收入",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176629859913",
+									"model": "text_17176629859913",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663715121",
+									"key": "input_1717663715121",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "营业收入",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176629859914",
+									"model": "text_17176629859914",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663720385",
+									"key": "input_1717663720385",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717663645867",
+			"model": "table_1717663645867",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636458673",
+									"key": "input_17176636458673",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636458674",
+									"key": "input_17176636458674",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636458675",
+									"key": "input_17176636458675",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636458676",
+									"key": "input_17176636458676",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717663212682",
+			"model": "table_1717663212682",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "公司员工数",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176632126823",
+									"model": "text_17176632126823",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176638631832",
+									"key": "input_17176638631832",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "员工工资数及福利支出",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176632126824",
+									"model": "text_17176632126824",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176638699202",
+									"key": "input_17176638699202",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717663673349",
+			"model": "table_1717663673349",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636733493",
+									"key": "input_17176636733493",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636733494",
+									"key": "input_17176636733494",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636733495",
+									"key": "input_17176636733495",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636733496",
+									"key": "input_17176636733496",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717663071497",
+			"model": "table_1717663071497",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "净收入",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176630714973",
+									"model": "text_17176630714973",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663726787",
+									"key": "input_1717663726787",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "摊簿每职收入",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176630714974",
+									"model": "text_17176630714974",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663737386",
+									"key": "input_1717663737386",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717663675199",
+			"model": "table_1717663675199",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636751983",
+									"key": "input_17176636751983",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636751984",
+									"key": "input_17176636751984",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636751985",
+									"key": "input_17176636751985",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176636751986",
+									"key": "input_17176636751986",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717663337450",
+			"model": "table_1717663337450",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "研发投入资金",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176633374503",
+									"model": "text_17176633374503",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663793077",
+									"key": "input_1717663793077",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "text",
+									"event_": false,
+									"listen_": false,
+									"options": {
+										"textAlign": "center",
+										"fontSize": 13,
+										"showRequiredMark": false,
+										"showRequiredMarkScript": "",
+										"hidden": false,
+										"bold": false
+									},
+									"label": "其他",
+									"labelWidth": 0,
+									"width": "100%",
+									"span": 24,
+									"key": "text_17176633374504",
+									"model": "text_17176633374504",
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_1717663793837",
+									"key": "input_1717663793837",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "table",
+			"layout": true,
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"customStyle": "",
+				"customClass": "",
+				"bordered": true,
+				"bright": true,
+				"small": true,
+				"hidden": false
+			},
+			"label": "表格",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 12,
+			"key": "table_1717663702697",
+			"model": "table_1717663702697",
+			"trs": [
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176637026973",
+									"key": "input_17176637026973",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176637026974",
+									"key": "input_17176637026974",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"tds": [
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176637026975",
+									"key": "input_17176637026975",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						},
+						{
+							"colspan": 1,
+							"rowspan": 1,
+							"list": [
+								{
+									"type": "input",
+									"options": {
+										"defaultValue": "",
+										"type": "text",
+										"prepend": "",
+										"append": "",
+										"placeholder": "请输入",
+										"maxLength": 0,
+										"clearable": false,
+										"hidden": false,
+										"disabled": false
+									},
+									"label": "",
+									"labelWidth": 1,
+									"width": "100%",
+									"span": 24,
+									"model": "input_17176637026976",
+									"key": "input_17176637026976",
+									"rules": [
+										{
+											"required": false,
+											"message": "必填项",
+											"trigger": [
+												"blur"
+											]
+										}
+									],
+									"dynamicLabel": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"dynamicLabel": false
+		}
+	],
+	"config": {
+		"labelPosition": "top",
+		"labelWidth": 80,
+		"size": "mini",
+		"outputHidden": true,
+		"hideRequiredMark": false,
+		"syncLabelRequired": false,
+		"labelSuffix": "",
+		"customStyle": ""
+	}
+}

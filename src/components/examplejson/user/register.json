@@ -1,0 +1,244 @@
+{
+	"list": [
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "你的坠名",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176662107642",
+			"key": "input_17176662107642",
+			"rules": [
+				{
+					"required": true,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "女"
+					},
+					{
+						"value": "2",
+						"label": "人妖"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "坠别",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176662251602",
+			"key": "radio_17176662251602",
+			"rules": [
+				{
+					"required": true,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "checkbox",
+			"options": {
+				"defaultValue": [],
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "屁股撅的老高"
+					},
+					{
+						"value": "2",
+						"label": "腹坠的joker身份证"
+					},
+					{
+						"value": "3",
+						"label": "腹坠身份证的复印件"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "你喜欢腹坠哪一点",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "checkbox_17176662550802",
+			"key": "checkbox_17176662550802",
+			"rules": [
+				{
+					"required": true,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "checkbox",
+			"options": {
+				"defaultValue": [
+					"1"
+				],
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "身在舔中不知舔，回首已是犬中犬"
+					},
+					{
+						"value": "2",
+						"label": "选1"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "腹坠的经典语言",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "checkbox_17176663145442",
+			"key": "checkbox_17176663145442",
+			"rules": [
+				{
+					"required": true,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "请输入你觉得第二条名言",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176663890072",
+			"key": "input_17176663890072",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "rate",
+			"options": {
+				"max": 5,
+				"defaultValue": 0,
+				"allowHalf": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "坠分",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "rate_17176665525742",
+			"key": "rate_17176665525742",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		}
+	],
+	"config": {
+		"labelPosition": "top",
+		"labelWidth": 80,
+		"size": "mini",
+		"outputHidden": true,
+		"hideRequiredMark": false,
+		"syncLabelRequired": false,
+		"labelSuffix": "",
+		"customStyle": ""
+	}
+}

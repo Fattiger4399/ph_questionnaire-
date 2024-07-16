@@ -1,0 +1,377 @@
+{
+	"list": [
+		{
+			"type": "text",
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"textAlign": "center",
+				"fontSize": 25,
+				"showRequiredMark": false,
+				"showRequiredMarkScript": "",
+				"hidden": false,
+				"bold": true
+			},
+			"label": "就业情况调查问卷",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 24,
+			"key": "text_17159145519532",
+			"model": "text_17159145519532",
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": {
+					"0": {
+						"value": "1",
+						"label": "男"
+					},
+					"1": {
+						"value": "2",
+						"label": "女"
+					}
+				},
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": {}
+			},
+			"label": "1.你的性别是？[单选题]",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17159146336412",
+			"key": "radio_17159146336412",
+			"rules": {
+				"0": {
+					"required": false,
+					"message": "",
+					"trigger": {
+						"0": "blur"
+					}
+				}
+			},
+			"dynamicLabel": false
+		},
+		{
+			"type": "checkbox",
+			"options": {
+				"defaultValue": [],
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "大一"
+					},
+					{
+						"value": "2",
+						"label": "大二"
+					},
+					{
+						"value": "3",
+						"label": "大三"
+					},
+					{
+						"value": "4",
+						"label": "大四"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "2.你的年级是？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "checkbox_17176650639472",
+			"key": "checkbox_17176650639472",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "3.你希望的就业地区是？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176655371822",
+			"key": "input_17176655371822",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "4.在择业时，你最看重的是？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176655593722",
+			"key": "input_17176655593722",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "5.你向往的职业是？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176655859132",
+			"key": "input_17176655859132",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "6.面对就业压力，你的态度？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176656085392",
+			"key": "input_17176656085392",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "7.你平时是否关注就业信息？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176657287442",
+			"key": "input_17176657287442",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "8.你如何看待自主创业？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176657559552",
+			"key": "input_17176657559552",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "9.你心下的当下就业形势？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176657855752",
+			"key": "input_17176657855752",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "10.你选择工作单位最看重的是？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176658073642",
+			"key": "input_17176658073642",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "button"
+		}
+	],
+	"config": {
+		"labelPosition": "top",
+		"labelWidth": 80,
+		"size": "mini",
+		"outputHidden": true,
+		"hideRequiredMark": false,
+		"syncLabelRequired": false,
+		"labelSuffix": "",
+		"customStyle": ""
+	}
+}

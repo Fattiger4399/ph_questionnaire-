@@ -1,0 +1,261 @@
+{
+	"list": [
+		{
+			"type": "text",
+			"event_": false,
+			"listen_": false,
+			"options": {
+				"textAlign": "center",
+				"fontSize": 25,
+				"showRequiredMark": false,
+				"showRequiredMarkScript": "",
+				"hidden": false,
+				"bold": true
+			},
+			"label": "新用户注册信息表",
+			"labelWidth": 0,
+			"width": "100%",
+			"span": 24,
+			"key": "text_17159145519532",
+			"model": "text_17159145519532",
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "用户名",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176670349782",
+			"key": "input_17176670349782",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "密码",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176670360922",
+			"key": "input_17176670360922",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "Email",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176670377422",
+			"key": "input_17176670377422",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "姓名",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176670389952",
+			"key": "input_17176670389952",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "手机号",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176670421112",
+			"key": "input_17176670421112",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "男"
+					},
+					{
+						"value": "2",
+						"label": "女"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "性别",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176671027882",
+			"key": "radio_17176671027882",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "datePicker",
+			"options": {
+				"format": "yyyy-MM-dd HH:mm:ss",
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"clearable": false,
+				"editable": true,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "出生日期",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "datePicker_17176671237942",
+			"key": "datePicker_17176671237942",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "button"
+		}
+	],
+	"config": {
+		"labelPosition": "top",
+		"labelWidth": 80,
+		"size": "mini",
+		"outputHidden": true,
+		"hideRequiredMark": false,
+		"syncLabelRequired": false,
+		"labelSuffix": "",
+		"customStyle": ""
+	}
+}

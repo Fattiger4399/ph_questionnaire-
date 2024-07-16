@@ -1,0 +1,673 @@
+{
+	"list": [
+		{
+			"type": "textarea",
+			"options": {
+				"defaultValue": "",
+				"rows": 4,
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"autosize": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "大学生对生态状况与环境问题的了解程度以及关注程度问卷调查表",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "textarea_17176711065342",
+			"key": "textarea_17176711065342",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "您的年龄：",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176711440812",
+			"key": "input_17176711440812",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "男"
+					},
+					{
+						"value": "2",
+						"label": "女"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "您的性别",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176711751342",
+			"key": "radio_17176711751342",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "大一"
+					},
+					{
+						"value": "2",
+						"label": "大二"
+					},
+					{
+						"value": "3",
+						"label": "大三"
+					},
+					{
+						"value": "4",
+						"label": "大四"
+					},
+					{
+						"value": "5",
+						"label": "研究生"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "您的年级是？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176711986422",
+			"key": "radio_17176711986422",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "您所在的城市：",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176712468072",
+			"key": "input_17176712468072",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "5月28日"
+					},
+					{
+						"value": "2",
+						"label": "6月5日"
+					},
+					{
+						"value": "3",
+						"label": "6月28日"
+					},
+					{
+						"value": "4",
+						"label": "5月5日"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "您知道世界环境保护日是在哪一天吗？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176712612012",
+			"key": "radio_17176712612012",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "极差：严重影响日常生活和健康"
+					},
+					{
+						"value": "2",
+						"label": "较差：经常出现雾霾、异味等现象"
+					},
+					{
+						"value": "3",
+						"label": "一般：偶尔出现轻微污染"
+					},
+					{
+						"value": "4",
+						"label": "较好：空气清新，少有污染事件"
+					},
+					{
+						"value": "5",
+						"label": "极好：空气质量极佳，未出现污染事件"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "您认为所在的地区的空气质量如何？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176713107212",
+			"key": "radio_17176713107212",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "极差：饮用水源受到严重污染"
+					},
+					{
+						"value": "2",
+						"label": "较差：饮用水源存在一定程度污染"
+					},
+					{
+						"value": "3",
+						"label": "一般：饮用水源质量尚可，但需关注"
+					},
+					{
+						"value": "4",
+						"label": "较好：饮用水源质量良好，偶有轻微污染"
+					},
+					{
+						"value": "5",
+						"label": "极好：饮用水源质量极佳，未出现污染事件"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "单选框",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176713734132",
+			"key": "radio_17176713734132",
+			"rules": [
+				{
+					"required": false,
+					"message": "您所在地区的水质状况评价如何？",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "您是否了解所在地区的土壤污染状况？",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "非常了解：详细了解土壤污染的分布、成因及影响"
+					},
+					{
+						"value": "2",
+						"label": "了解一些：大致知道土壤污染的情况"
+					},
+					{
+						"value": "3",
+						"label": "不太了解：仅知道一些基本信息"
+					},
+					{
+						"value": "4",
+						"label": "完全不了解：完全不清楚土壤污染情况"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "单选框",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176714101732",
+			"key": "radio_17176714101732",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "您认为所在地区的当前的主要环境问题有哪些？",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "空气污染"
+					},
+					{
+						"value": "2",
+						"label": "噪声污染"
+					},
+					{
+						"value": "3",
+						"label": "水污染"
+					},
+					{
+						"value": "4",
+						"label": "垃圾处理不当"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "单选框",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176714477642",
+			"key": "radio_17176714477642",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "工业排放"
+					},
+					{
+						"value": "2",
+						"label": "交通运输"
+					},
+					{
+						"value": "3",
+						"label": "农业活动"
+					},
+					{
+						"value": "4",
+						"label": "城市化进程"
+					},
+					{
+						"value": "5",
+						"label": "自然因素（气候等）"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "您认为哪些因素对本地区的环境有重大影响",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176714762282",
+			"key": "radio_17176714762282",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "非常关注：经常了解并关注政策内容，但不深入"
+					},
+					{
+						"value": "2",
+						"label": "关注一些：了解部分政策内容，但不深入研究"
+					},
+					{
+						"value": "3",
+						"label": "一般：偶尔听说或了解政策内容"
+					},
+					{
+						"value": "4",
+						"label": "不关注：从未主动了解过相关政策"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "您是否关注过所在地的环境保护政策或规定？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176755187052",
+			"key": "radio_17176755187052",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "radio",
+			"options": {
+				"defaultValue": "",
+				"placeholder": "请输入",
+				"dynamic": 0,
+				"options": [
+					{
+						"value": "1",
+						"label": "满意"
+					},
+					{
+						"value": "2",
+						"label": "不满意"
+					}
+				],
+				"methodType": "get",
+				"dynamicPostData": "",
+				"remoteFunc": "",
+				"dataPath": "",
+				"remoteValue": "",
+				"remoteLabel": "",
+				"dictType": "",
+				"disableItemScript": "",
+				"hidden": false,
+				"disabled": false,
+				"linkage": false,
+				"linkData": []
+			},
+			"label": "您对所在地区的生态环境状况满意吗？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "radio_17176755776942",
+			"key": "radio_17176755776942",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		},
+		{
+			"type": "input",
+			"options": {
+				"defaultValue": "",
+				"type": "text",
+				"prepend": "",
+				"append": "",
+				"placeholder": "请输入",
+				"maxLength": 0,
+				"clearable": false,
+				"hidden": false,
+				"disabled": false
+			},
+			"label": "您对未来环境保护有什么期望或者是建议吗？",
+			"labelWidth": 1,
+			"width": "100%",
+			"span": 24,
+			"model": "input_17176756095602",
+			"key": "input_17176756095602",
+			"rules": [
+				{
+					"required": false,
+					"message": "必填项",
+					"trigger": [
+						"blur"
+					]
+				}
+			],
+			"dynamicLabel": false
+		}
+	],
+	"config": {
+		"labelPosition": "top",
+		"labelWidth": 80,
+		"size": "medium",
+		"outputHidden": true,
+		"hideRequiredMark": false,
+		"syncLabelRequired": false,
+		"labelSuffix": "",
+		"customStyle": ""
+	}
+}

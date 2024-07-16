@@ -1,0 +1,116 @@
+{
+    "component": "div",
+    "wid": 0,
+    "props": {},
+    "style": {
+        "background": "#FFF8DC"
+    },
+    "children": [{
+            "wid": 1,
+            "component": "ph-h1",
+            "props": {
+                "text": "饮食偏好调查问卷"
+            },
+            "style": {},
+            "attrs": {},
+            "events": {}
+        },
+        {
+            "wid": 1,
+            "component": "ph-radio",
+            "props": {
+                "No": 1,
+                "title": "你是否喜欢吃肉",
+                "options_1": "是",
+                "options_2": "否"
+            },
+            "style": {
+                "top": "300px",
+                "left": "300px",
+                "zIndex": "1"
+            },
+            "attrs": {},
+            "events": {}
+        }, {
+            "wid": 2,
+            "component": "ph-checkbox",
+            "props": {
+                "No": 2,
+                "title": "选择你常吃的菜系",
+                "options": [
+                    "鲁菜（爆炒腰花、糖醋鲤鱼、葱烧海参、油爆双脆）",
+                    "苏菜（鸡汁煮干丝、软兜长鱼、盐水鸭、蟹粉狮子头）",
+                    "徽菜（臭鳜鱼、毛豆腐、一品锅",
+                    "浙菜（西湖醋鱼、龙井虾仁、东坡肉、荷叶粉蒸肉、宋嫂鱼羹）",
+                    "闽菜（佛跳墙、醉排骨、荔枝肉、福建酿豆腐、八宝红鲟饭）",
+                    "川菜（麻婆豆腐、回锅肉、夫妻肺片、水煮牛肉、毛血旺、酸菜鱼）",
+                    "粤菜（白切鸡、烤乳猪、红烧乳鸽、糖醋咕噜肉、客家酿豆腐）",
+                    "湘菜（剁椒鱼头、毛氏紅烧肉、腊味合蒸、东安子鸡、麻辣子鸡）"
+                ]
+            },
+            "style": {
+                "top": "300px",
+                "left": "300px",
+                "zIndex": "1"
+            },
+            "attrs": {},
+            "events": {}
+        },
+        {
+            "wid": 3,
+            "component": "ph-checkbox",
+            "props": {
+                "No": 3,
+                "title": "选择你喜欢的口味类型",
+                "options": [
+                    "清淡（姜葱鸡）", 
+                    "麻辣（水煮牛肉）", 
+                    "酸甜（糖醋鱼，糖醋排骨）", 
+                    "咸鮮", 
+                    "酸"
+                ]
+            },
+            "style": {
+                "top": "300px",
+                "left": "300px",
+                "zIndex": "1"
+            },
+            "attrs": {},
+            "events": {}
+        },
+        {
+            "wid": 4,
+            "component": "ph-input",
+            "props": {
+                "No": 4,
+                "title": "补充你喜欢的菜"
+            },
+            "style": {},
+            "attrs": {},
+            "events": {}
+        },
+        {
+            "wid": 5,
+            "component": "ph-input",
+            "props": {
+                "No": 5,
+                "title": "其他"
+            },
+            "style": {},
+            "attrs": {},
+            "events": {}
+        },
+        {
+            "wid": 6,
+            "component": "ph-button",
+            "props": {
+                "No": 6,
+                "text": "提交",
+                "title": ""
+            },
+            "style": {},
+            "attrs": {},
+            "events": {}
+        }
+    ]
+}
